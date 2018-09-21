@@ -4,12 +4,29 @@ html {
   font-family: Helvetica;
 }
 
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  margin-bottom: 0rem;
+}
+
+/*Top of Page*/
+.container_top {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .top {
-  width: 960px;
   display: inline-flex;
-  margin: 0.66rem 0px;
+  margin: 0.66rem 0rem;
   align-items: center;
-  justify-content: center;
 }
 
 .logo {
@@ -20,9 +37,48 @@ html {
 
 .secret {
   color: white;
+  font-size: 1rem;
 }
 
+/*Header*/
 .container_main {
-  background-image: url(./resources/images/moto.jpeg);
+  background-image: url(../../resources/images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 25rem;
+}
+
+.background {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: auto;
+  top: 9rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2rem 3rem;
+}
+
+.container_nav {
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin-top: 0.750rem;
+  margin-bottom: 0.75rem;
+
 }

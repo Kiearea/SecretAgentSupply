@@ -87,6 +87,7 @@ ul {
 /*Products*/
 .products {
   background-color: white;
+  padding-bottom: 4rem;
   }
 
 .container_products {
@@ -111,7 +112,6 @@ ul {
 
 .photo1 {
   width: 70%;
-
 }
 
 .pen {
@@ -137,4 +137,55 @@ ul {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-align: center;
+}
+
+/*Location & Hours*/
+.bottom {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location_container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0rem;
+}
+
+.numbers {
+  margin: 0.5rem;
+}
+
+.hours_container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hours {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0rem;
+}
+
+.time {
+  margin: 0.5rem;
+}
+
+.footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
 }

@@ -76,6 +76,12 @@ h2 {
   color: white;
 }
 
+.tablet_nav {
+  display: none;
+  background-color: firebrick;
+  color: white;
+}
+
 ul {
   display: flex;
   justify-content: space-between;
@@ -108,6 +114,7 @@ ul {
 
 .photo {
   height: 9rem;
+
 }
 
 .photo1 {
@@ -188,4 +195,49 @@ ul {
   color: white;
   display: flex;
   align-items: center;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+  .tablet_nav {
+    display: flex;
+    margin: 0rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.750rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .container_nav {
+    display: none;
+  }
+
+  .container_products {
+    justify-content: space-between;
+    padding: 3rem 0rem;
+    margin: 0rem;
+  }
+
+  .pen {
+    width: 47%;
+  }
+
+  .watch {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .hours_container {
+    width: 35%;
+  }
+
+  .footer {
+    padding-left: 0rem;
+  }
 }
